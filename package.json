@@ -1,0 +1,19 @@
+{
+  "name": "solvers_estate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeniElGreko/solvers_estate_makeup.git"
+  },
+  "author": "gredenham",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DeniElGreko/solvers_estate_makeup/issues"
+  },
+  "homepage": "https://github.com/DeniElGreko/solvers_estate_makeup#readme"
+}
