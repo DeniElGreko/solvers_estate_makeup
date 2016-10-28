@@ -1,0 +1,24 @@
+// font
+
+$regular: 'Helvetica-Regular';
+$bold: 'Helvetica-Bold';
+
+//colors
+
+$light-black: #222222;
+$black: #000000;
+$white: #ffffff;
+$gray: #9b9b9b;
+
+//resize
+
+@mixin resize {
+  @media (min-width: 1220px) {
+    width: 1180px;
+    margin: 0 auto;
+  }
+  @media (min-width: 0px) and (max-width: 1219px) {
+    width: calc(100% - 40px);
+    margin: 0 20px;
+  }
+}

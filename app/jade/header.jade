@@ -1,0 +1,29 @@
+header.header.js-header
+    .header-content
+        a.header__logo(href='#')
+        nav.header__menu
+
+            .header__menu__course
+                button.header__menu__course-btn.js-h_show-hide-course
+                ul.header__menu__course-list.js-h_hide-course
+                    li.header__menu__course-list-item.js-course-item USD 60.04
+                    li.header__menu__course-list-item.js-course-item EUR 60.05
+                    li.header__menu__course-list-item.js-course-item BGR 60.04
+                    li.header__menu__course-list-item.js-course-item TDN 60.04
+            a.header__menu__tel(href='tel: +7(495)221 77 21') +7(495)221 77 21
+            a(href='mailto: gredenham@yandex.ru').header__menu__call-request-btn.js-h_show-call-request
+            .header__menu__show-hide-list-btn
+                button.header__menu__show-hide-list-btn-el.js-h_show-hide-menu
+                ul.header__menu__hide-list.js-h_hide-menu
+                    li.header__menu__hide-list-item
+                        a.header__menu__hide-list-item-link(href='#') Поиск
+                    li.header__menu__hide-list-item
+                        a.header__menu__hide-list-item-link(href='#') Империя
+                    li.header__menu__hide-list-item
+                        a.header__menu__hide-list-item-link(href='#') Вход
+
+    section.header__call-request-popup.js-h_call-request
+
+
+script(src='js/header.js')
+
